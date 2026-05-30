@@ -38,6 +38,10 @@ services:
       - PLUGINS_ENABLED=true
       - PLUGINS_DIR=/app/data/plugins
       
+      # Security (Optional: Set a master key for API authentication)
+      - API_MASTER_KEY=openwa_master_secret
+      
+      
       # Swagger API Documentation
       - ENABLE_SWAGGER=true
       
