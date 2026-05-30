@@ -60,7 +60,7 @@ services:
     container_name: openwa-dashboard
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "8282:80"
     depends_on:
       - openwa-api
     networks:
