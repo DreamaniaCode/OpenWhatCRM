@@ -34,4 +34,4 @@ http:
     dashboard:
       loadBalancer:
         servers:
-          - url: 'http://openwa-dashboard:80'
+          - url: 'http://dashboard:80'
